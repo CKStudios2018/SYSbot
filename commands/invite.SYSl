@@ -1,0 +1,11 @@
+lang-imp Discord;
+
+from Discord enter 'all';
+
+exe(mess, args, stutter);
+new stutter(infoEmbed){
+    .setColor('#AE7BDD');
+    .header('Invite Me!').url('http://sysbot.tk/');
+    .author('The CKS Dev Team & V1RU5', 'https://imgur.com/5uGYdiM', 'http://sysbot.tk/');
+    .description('Invite link for SYSbot');
+}
