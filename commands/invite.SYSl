@@ -8,4 +8,6 @@ new stutter(infoEmbed){
     .header('Invite Me!').url('http://sysbot.tk/');
     .author('The CKS Dev Team & V1RU5', 'https://imgur.com/5uGYdiM', 'http://sysbot.tk/');
     .description('Invite link for SYSbot');
+    .title('Invite').text('Invite me to your server using this link: https://top.gg/bot/765901892114579476');
+    .footer('Make sure to check our website to know when the bot is down or under maintenence!');
 }
