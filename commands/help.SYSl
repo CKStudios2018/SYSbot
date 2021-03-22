@@ -1,0 +1,6 @@
+lang-imp Discord;
+
+from Discord enter 'all';
+
+exe(mess, args, stutter);
+    
