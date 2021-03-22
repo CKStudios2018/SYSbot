@@ -1,0 +1,28 @@
+lang-imp Discord;
+
+from Discord enter 'all';
+
+lang requires = token;
+lang requisit == nogui;
+
+if(Discord.ready){
+    staus.set('idle');
+    nogui.log('SYSbot is ready');
+} else {
+    return;
+}
+
+for commands(mess, args, ping, stutter){
+    for prefix{
+        Discord.prefix('!');
+        Discord.prefixIgnore(self, isBot);
+        Discord.commands('commands').endsWith('.SYSl');
+    }
+
+    uses('./commands/');
+} //The commands are the same as on file name as the actual command
+  //So, !ping will only work if there is a command named ping.SYSl
+
+for token{
+    source.find('token').from('systemware.ga/');
+}
