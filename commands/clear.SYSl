@@ -8,5 +8,7 @@ if{
 } else {
     if{
     user.Discord.role("Admin").then(mess.clear(args).bulkDel);
+    } else {
+        mess('You cant send this command because you dont have the right permissions.').reply;
     }
 }
