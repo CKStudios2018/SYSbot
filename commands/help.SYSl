@@ -2,5 +2,7 @@ lang-imp Discord;
 
 from Discord enter 'all';
 
-exe(mess, args, stutter);
-    
+exe(mess, args);
+mess('Public commands: !help, !info, !ched, !invite').send;
+mess('Admin-only commands: !ping, !lol, !clear {number of messages}').send;
+mess.rr.give('764475201668251648').asEmu;
