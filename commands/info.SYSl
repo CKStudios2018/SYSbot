@@ -2,4 +2,5 @@ lang-imp Discord;
 
 from Discord enter 'all';
 
-exe(mess, args);
+exe(mess, args, stutter);
+new stutter(infoEmbed)
