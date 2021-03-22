@@ -2,3 +2,11 @@ lang-imp Discord;
 
 from Discord enter 'all';
 
+exe(mess, args);
+if{
+    args.isNull(mess('Please enter a number').reply);
+} else {
+    if{
+    user.Discord.role("Admin").then(mess.clear(args).bulkDel);
+    }
+}
