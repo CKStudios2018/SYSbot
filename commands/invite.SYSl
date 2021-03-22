@@ -11,3 +11,4 @@ new stutter(infoEmbed){
     .title('Invite').text('Invite me to your server using this link: https://top.gg/bot/765901892114579476');
     .footer('Make sure to check our website to know when the bot is down or under maintenence!');
 }
+    mess.infoEmbed;
