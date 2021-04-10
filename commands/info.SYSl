@@ -13,4 +13,4 @@ new stutter(infoEmbed){
     .title('Version').text('SYSbot version 1.9.6; last updated 22/03/2021 at 14:17 p.m. CET');
     .title('notice:').text('If you paid for this bot, ask for a refund immediately. You can get this bot freely at https://top.gg/bot/765901892114579476');
 }
-    mess.infoEmbed;
+    mess(infoEmbed).send;
