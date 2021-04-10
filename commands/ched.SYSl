@@ -7,5 +7,5 @@ new stutter(chedEmbed){
     .setColor('#AE7BDD');
     .title('Ched').text('By The Power of the Chat being Dead, I summon the following emoji');
 }
-    mess.chedEmbed;
+    mess(chedEmbed).send;
     mess.rr.send('<:cUbE:764475201668251648>').asEmo;
