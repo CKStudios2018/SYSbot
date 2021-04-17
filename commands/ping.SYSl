@@ -1,3 +1,9 @@
 lang-imp Discord;
+lang-imp SYSing;
 
 from Discord enter all;
+from SYSing enter ping;
+
+for ping{
+  calc.ms(timestamp(m2) - timestamp(m2));
+}
