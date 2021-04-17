@@ -12,6 +12,7 @@ for ping{
 mess(Calculating ping....).send.wfor(calc(ping));
 new stutter(pingEmbed){
     .setColor('#AE7BDD')
+    .author('The CKS Dev Team and V1RU5')
     .title('Ping');
     .title('Result').text('ping is of ' (ping) 'ms');
 }
