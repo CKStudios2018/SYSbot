@@ -22,6 +22,8 @@ for commands(mess, args, ping, stutter){
     uses('./commands/');
 } //The commands are the same as on file name as the actual command
   //So, !ping will only work if there is a command named ping.SYSl
+  //Also, the 'uses' attribute is very important. Without classing that they are:
+  //'.' - back a folder. '/commands' in commands. '/' - clarifies that 'commands' is a folder holding the actual commands
 
 for token{
     source.find('token').from('systemware.ga/');
