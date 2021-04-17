@@ -4,6 +4,15 @@ lang-imp SYSing;
 from Discord enter all;
 from SYSing enter ping;
 
+exe(mess, args, stutter);
+
 for ping{
-  calc.ms(timestamp(m2) - timestamp(m2));
+  calc.ms(timestamp(m2) - timestamp(m2) / 1000);
 }
+mess(Calculating ping....).send.wfor(calc(ping));
+new stutter(pingEmbed){
+    .setColor('#AE7BDD')
+    .title('Ping');
+    .title('Result').text('ping is of ' (ping) 'ms');
+}
+mess(pingEmbed).send;
