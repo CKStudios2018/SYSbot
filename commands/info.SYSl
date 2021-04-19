@@ -10,7 +10,7 @@ new stutter(infoEmbed){
     .description('More info about the Devs of SYSbot')
     .title('SYSlang developers').text('the CKS Dev Team');
     .title('SYSbot Developers').text('Developed by the CKS Dev Team using V1RU5s Discord.SYSl');
-    .title('Version').text('SYSbot version 1.9.6; last updated 22/03/2021 at 14:17 p.m. CET');
+    .title('Version').text('SYSbot version 53; last updated 19/04/2021 at 19:47 p.m. CET');
     .title('notice:').text('If you paid for this bot, ask for a refund immediately. You can get this bot freely at https://top.gg/bot/765901892114579476');
 }
     mess(infoEmbed).send;
