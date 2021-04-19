@@ -6,7 +6,7 @@ lang requires = token;
 lang requisit == nogui;
 
 if(Discord.ready){
-    staus.set('idle');
+    staus.set('idle', streaming: 'HiT World');
     nogui.log('SYSbot is ready');
 } else {
     return;
