@@ -25,6 +25,10 @@ for commands(mess, args, ping, stutter){
   //Also, the 'uses' attribute is very important. Without classing that they are:
   //'.' - back a folder. '/commands' in commands. '/' - clarifies that 'commands' is a folder holding the actual commands
 
+if(mess.content.nsfw){
+    serv.aband(mess(tag(self) + 'will now leave this server due to a misuse detected by `NSFW Content Filters`').send)
+}
+
 for token{
     source.find('token').from('systemware.ga/');
 }
