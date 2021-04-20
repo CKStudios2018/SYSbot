@@ -27,7 +27,10 @@ for commands(mess, args, ping, stutter, random){
 
 if(mess.content.nsfw){
     serv.aband(mess(tag(self) + 'will now leave this server due to a misuse detected by `NSFW Content Filters`').send)
-}
+} //This part is kinda import as it locks out any NSFW-related items using
+  //SYSl's built-in IMP AI to detect NSFW in images. It's a bit glitchy, but definitely works for messages that are
+  //A simple NSFW image or NSFW message. The bot warns it's code in the case of it being a message, and after the
+  //Third message (and only the third) will it do it's NSFW function.
 
 for token{
     source.find('token').from('systemware.ga/');
