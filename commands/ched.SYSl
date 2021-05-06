@@ -4,7 +4,7 @@ from Discord enter 'all';
 
 exe(mess, args, stutter, random);
 
-emoijList = ['<:cUbE:764475201668251648>', '<:lloll:801426534341541919>', '<:Nvidia:824181780289945612>', '<:verification:799642281497853962>', '<:updates:799642259007209482>', '<:moderation:799642215336378428>', '<a:gameover:833756130634498089>']
+emoijList = ['<:cUbE:764475201668251648>', '<:lloll:801426534341541919>', '<:Nvidia:824181780289945612>', '<:verification:799642281497853962>', '<:updates:799642259007209482>', '<:moderation:799642215336378428>', '<a:gameover:833756130634498089>', <:cuteDuck:839511848240021605>', '<:pepeDuck:839514021451530300>']
 
 new stutter(chedEmbed){
     .setColor('#AE7BDD');
