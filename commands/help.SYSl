@@ -6,3 +6,7 @@ exe(mess, args);
 mess('Public commands: !help, !info, !ched, !invite').send;
 mess('Admin-only commands: !ping, !lol, !clear {number of messages}').send;
 mess.rr.give('764475201668251648').asEmu;
+
+if(i.nick == ' '){
+  nick.i('SYSbot', "bc it's my name")
+}
