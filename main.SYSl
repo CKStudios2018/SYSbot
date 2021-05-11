@@ -6,7 +6,7 @@ lang requires = token;
 lang requisit == nogui;
 
 if(Discord.ready){
-    staus.set('idle', streaming: 'HiT World');
+    staus.set('idle', streaming: 'My AI inerface', 'https://www.twitch.tv/syslbot');
     nogui.log('SYSbot is ready');
 } else {
     return;
