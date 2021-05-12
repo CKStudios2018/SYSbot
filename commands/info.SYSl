@@ -6,7 +6,7 @@ exe(mess, args, stutter);
 new stutter(infoEmbed){
     .setColor('#AE7BDD');
     .header('Dev Info').url('http://sysbot.tk/');
-    .author('the CKS Dev Team, V1ru5 & redir110', 'https://imgur.com/5uGYdiM', 'http://sysbot.tk/')
+    .author('the CKS Dev Team, V1RU5 & redir110', 'https://imgur.com/5uGYdiM', 'http://sysbot.tk/')
     .description('More info about the Devs of SYSbot')
     .title('SYSlang developers').text('the CKS Dev Team');
     .title('SYSbot Developers').text('Developed by the CKS Dev Team using V1RU5s Discord.SYSl');
