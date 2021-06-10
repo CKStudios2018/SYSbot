@@ -9,7 +9,7 @@ if(Discord.ready){
     staus.set('idle', streaming: 'My AI inerface', 'https://www.twitch.tv/syslbot');
     nogui.log('SYSbot is ready');
 } else {
-    return;
+    return(this);
 }
 
 for commands(mess, args, ping, stutter, random){
