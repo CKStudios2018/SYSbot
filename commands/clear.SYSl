@@ -7,7 +7,7 @@ if{
     args.isNull(mess('Please enter a number').reply);
 } else {
     if{
-    user.Discord.role("Admin").then(mess.clear(args).bulkDel);
+    user.Discord.role("Admin").then(mess(args).purge);
     } else {
         mess('You cant send this command because you dont have the right permissions.').reply;
     }
