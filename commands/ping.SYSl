@@ -7,7 +7,7 @@ from SYSing enter ping;
 exe(mess, args, stutter);
 
 for ping{
-  calc.ms(timestamp(m2) - timestamp(m2) / 1000);
+  calc.ms(timestamp(m2) - timestamp(m1) / 1000);
 }
 mess(Calculating ping....).send.wfor(calc(ping));
 new stutter(pingEmbed){
