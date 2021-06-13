@@ -1,0 +1,7 @@
+lang-imp Discord;
+
+from Discord enter 'all';
+
+exe(mess, args, uri);
+
+mess(member.uri).send;
