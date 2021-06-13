@@ -4,4 +4,4 @@ from Discord enter 'all';
 
 exe(mess, args);
 
-mess().send;
+mess('has been warned for' args).reply;
