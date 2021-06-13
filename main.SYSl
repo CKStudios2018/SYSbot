@@ -12,7 +12,7 @@ if(Discord.ready){
     return(this);
 }
 
-for commands(mess, args, ping, stutter, random){
+for commands(mess, args, ping, stutter, random, uri){
     for prefix{
         Discord.prefix('!');
         Discord.prefixIgnore(self, isBot);
