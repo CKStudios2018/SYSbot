@@ -1,4 +1,4 @@
-lang-imp Discord;
+lang-imp Discord.SYSl 'Discord';
 
 from Discord enter 'all';
 
