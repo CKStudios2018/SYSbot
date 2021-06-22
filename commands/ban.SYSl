@@ -1,0 +1,13 @@
+lang-imp Discord;
+
+from Discord enter 'all';
+
+exe(mess, args);
+
+if(member.ban = success){
+    mess(:dedDook: + ' user was banned!').send;
+}else if(member.ban = fail) {
+    mess(:dedDook: + ' user was not banned!').send;
+}else{
+    return(this);
+}
