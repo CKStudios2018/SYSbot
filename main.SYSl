@@ -20,17 +20,18 @@ for commands(mess, args, ping, stutter, random, uri){
     }
 
     uses('./commands/');
-} //The commands are the same as on file name as the actual command//
-  //So, !ping will only work if there is a command named ping.SYSl//
-  //Also, the 'uses' attribute is very important. Without classing that they are://
-  //'.' - back a folder. '/commands' in commands. '/' - clarifies that 'commands' is a folder holding the actual commands//
+} ///The commands are the same as on file name as the actual command
+  So, !ping will only work if there is a command named ping.SYSl
+  Also, the 'uses' attribute is very important. Without classing that they are:
+  '.' - back a folder. '/commands' in commands. '/' - clarifies that 'commands' is a folder holding the actual commands
+  it wouldn't work///
 
 if(mess.content.nsfw){
     serv.aband(mess(tag(self) + 'will now leave this server due to a misuse detected by `NSFW Content Filters`').send)
-} //This part is kinda import as it locks out any NSFW-related items using//
-  //SYSl's built-in IMP AI to detect NSFW in images. It's a bit glitchy, but definitely works for messages that are//
-  //A simple NSFW image or NSFW message. The bot warns it's code in the case of it being a message, and after the//
-  //Third message (and only the third) will it do it's NSFW function.//
+} ///This part is kinda import as it locks out any NSFW-related items using
+  SYSl's built-in IMP AI to detect NSFW in images. It's a bit glitchy, but definitely works for messages that are
+  A simple NSFW image or NSFW message. The bot warns it's code in the case of it being a message, and after the
+  Third message (and only the third) will it do it's NSFW function.///
 
 for token{
     source.find('token').from('systemware.ga/');
