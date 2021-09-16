@@ -4,7 +4,7 @@ from Discord enter 'all';
 
 exe(mess, args);
 if{
-    user.Discord.role("Admin").then(mess.('Sorry, that might be the wrong emoji...').send);
+    user.Discord.role("Admin").then(mess.react('<:lloll:801426534341541919>').asEmu);
     } else {
         mess('You cant send this command because you dont have the right permissions.').reply;
     }
