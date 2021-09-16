@@ -3,6 +3,8 @@ lang-imp Discord;
 from Discord enter 'all';
 
 exe(mess, args, stutter);
+
+stus = ['Make sure to check our website to know when the bot is down!', 'Make sure to check our website to know when the bot is under maintenence!', 'SYSbot has a localhost:9000 website!', 'R.I.P. Chawi. You will be missed!', 'Cheesecake!']
 new stutter(infoEmbed){
     .setColor('#AE7BDD');
     .header('Dev Info').url('http://sysbot.tk/');
@@ -10,8 +12,8 @@ new stutter(infoEmbed){
     .description('More info about the Devs of SYSbot')
     .title('SYSlang developers').text('the CKS Dev Team');
     .title('SYSbot Developers').text('Developed by the CKS Dev Team using V1RU5s Discord.SYSl');
-    .title('Version').text('SYSbot version 53; last updated 12/05/2021 at 11:10 a.m. CET');
+    .title('Version').text('SYSbot version 59; last updated 15/09/2021 at 9:34 a.m. CET');
     .title('notice:').text('If you paid for this bot, ask for a refund immediately. You can get this bot freely at https://top.gg/bot/765901892114579476');
-    .setFooter('Make sure to check our website to know when the bot is down or under maintenence!')
+    .footer(random.from(stus))
 }
     mess(infoEmbed).send;
